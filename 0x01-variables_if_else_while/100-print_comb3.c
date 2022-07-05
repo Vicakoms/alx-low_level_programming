@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar((ch % 10) + '0');
 			putchar((n % 10) + '0');
-
+                        
 			if (ch != 8)
 			{
 				putchar(',');
@@ -25,3 +25,7 @@ int main(void)
 			else
 				continue;
 		}
+	}
+	putchar(10); /* this is an ascii code for new line */
+	return (0);
+}
